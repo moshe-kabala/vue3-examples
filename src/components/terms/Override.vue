@@ -1,5 +1,7 @@
 <template>
-  <div>Choosing a component</div>
+  <div style="border: 1px solid red; padding: 4px" class="m8">
+    Override component
+  </div>
 </template>
 
 <script lang="ts">
@@ -12,4 +14,8 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.m8 {
+  margin: 8px;
+}
+</style>
